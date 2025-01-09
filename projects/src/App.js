@@ -3,6 +3,7 @@ import './App.css';
 import Welcome from './lesson1/componenta/Welcome'
 import DisplayPic from './lesson2/componenta/DisplayPic'; 
 import GetWeather from './lesson3/componenta/GetWeather';
+import TechFlow from './lesson4/components/TechFlow';
 function App() {
   return (
     <div className="App">
@@ -19,10 +20,11 @@ function App() {
         >
           Learn React
         </a> */}
-        <Welcome name="chani" age='19' ></Welcome>
+        {/* <Welcome name="chani" age='19' ></Welcome>
         <DisplayPic></DisplayPic>
-        <GetWeather></GetWeather>
+        <GetWeather></GetWeather> */}
       {/* </header> */}
+      <TechFlow></TechFlow>
     </div>
   );
 }
